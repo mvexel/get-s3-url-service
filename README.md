@@ -12,8 +12,8 @@ This syncs my `Screenshots` folder to an S3 bucket so I can link to them when I 
 
 ## Installation
 
-* Download the `Get Public S3 URL`
-* Double-click
+* Download the repo and unzip
+* Navigate into the unzipped directory and ouble-click on the `Get Public S3 URL` file.
 * When asked, click `Open with Automator`
 * In the `Run Shell Script` part of the workflow, find the `https://diary-image-hosting.s3.amazonaws.com/` bit and change it to your S3 bucket root URL.
 * Save
